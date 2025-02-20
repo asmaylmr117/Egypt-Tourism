@@ -15,7 +15,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden; /* لمنع التجاوز الأفقي */
   box-sizing: border-box; /* لحساب الحواف والهوامش بشكل صحيح */
- background-color: #066168;
+ background-color: #ffffff;
 }
 
 * {
@@ -257,30 +257,31 @@ body {
 
 /* Welcome Section */
 .welcome-section {
-  background-color: #096474;
+  background-color: #ffffff;
   padding: 50px 20px 50px 40px;
   text-align: left;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
+  
 }
 
 .welcome-section h1 {
   font-size: 2.5rem;
-  color: #00ffff;
+  color: #0dbbbb;
   margin-bottom: 20px;
 }
 
 .welcome-section p {
   font-size: 1.2rem;
-  color: #fff9f9;
+  color: #837c7c;
   margin-bottom: 30px;
 }
 
 .welcome-section .btn {
   font-size: 1.2rem;
   padding: 10px 30px;
-  color: #080f79;
-  background-color: #d4cbcb;
+  color: #ffffff;
+  background-color: #0eb6c2;
 }
 
 .welcome-section .btn:hover {
@@ -294,7 +295,9 @@ body {
   color: #eef3f3;
   width: 100%;
 }
-
+textarea{
+  box-shadow: 0 0 8px rgba(0, 170, 255, 0.6);
+}
 
 
 /* List Group */
@@ -308,6 +311,7 @@ body {
   align-items: center;
   padding: 10px 15px;
   margin-bottom: 10px;
+  box-shadow: 0 0 8px rgba(0, 170, 255, 0.6);
 }
 
 .list-group-item:hover {
@@ -319,7 +323,7 @@ body {
   border: none;
   margin-top: 10px;
   padding: 10px;
-  background-color: #e9e3e3;
+  background-color: #ffffff;
 }
 
 /* Arrows */
@@ -400,7 +404,7 @@ body {
 }
 .full-width-section {
   width: 100%;
- background-color: #066d79;
+ background-color: #ffffff;
   padding-left: 5%;
  
 }
@@ -463,7 +467,7 @@ body {
 
 .tourism-grid {
   padding: 2rem;
-  background-color: #066168;
+  background-color: #ffffff;
 }
 
 .location-card {
@@ -635,7 +639,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(14, 150, 143, 0.7);
   transition: all 0.3s ease;
 }
 
@@ -827,7 +831,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(226, 223, 223);
+  background: rgb(255, 255, 255);
   border-radius: 12px;
   box-shadow: 0px 4px 8px rgb(3, 223, 252);
 }
